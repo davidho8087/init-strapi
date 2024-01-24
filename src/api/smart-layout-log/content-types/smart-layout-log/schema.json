@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "smart_layout_logs",
+  "info": {
+    "singularName": "smart-layout-log",
+    "pluralName": "smart-layout-logs",
+    "displayName": "SmartLayoutLog"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "prompt": {
+      "type": "text"
+    },
+    "type": {
+      "type": "string"
+    },
+    "layout": {
+      "type": "text"
+    },
+    "token": {
+      "type": "string"
+    },
+    "rawSqlStatement": {
+      "type": "text"
+    }
+  }
+}
